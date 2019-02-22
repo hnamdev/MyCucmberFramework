@@ -9,9 +9,9 @@ import cucumber.api.junit.Cucumber;
 (
 features= {"Features/Test.feature"},	
 glue= {},
-plugin= {"pretty","html:target/Cucumber_Report"}
+plugin= {"pretty","html:target/Cucumber_Report"},
 //monochrome=true
-////tags= {"@TC01"}
+tags= {"@TC1"}
 )
 
 
